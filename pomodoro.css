@@ -1,0 +1,92 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url(background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5% auto 0 auto;
+  width: 50%;
+  height: 80%;
+  min-width: 450px;
+  min-height: 300px;
+  padding: 2% 0;
+  color: rgb(196, 31, 67);
+}
+
+.announcer {
+  padding: 10px 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(107, 55, 51);
+  border-radius: 5px;
+  background-color: rgba(229, 105, 100, 0.6);
+}
+
+.timer-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(107, 55, 51);
+  border-radius: 5px;
+  background-color: rgba(229, 105, 100, 0.6);
+}
+
+.timer-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2px 2px 2px 40px;
+}
+
+#timer {
+  font-size: 80px;
+}
+
+button {
+  background-color: rgba(200, 200, 200, 0.4);
+  border-radius: 5px;
+  outline: none;
+  color: rgb(107, 55, 51);
+}
+
+button:hover {
+  border-color: rgba(200, 200, 200, 0.6);
+}
+
+div div div button {
+  font-size: 30px;
+}
+
+.buttons {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  height: 2rem;
+  width: 3rem;
+  font-size: 60px;
+}
+
+#switch {
+  font-size: 30px;
+  width: 30%;
+  height: 2em;
+  margin-bottom: 3%;
+}
